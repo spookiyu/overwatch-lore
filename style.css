@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'FuturaNo2D';
-  src: url('/FuturaNo2D-DemiBold.woff');
+  src: url('FuturaNo2D-DemiBold.woff');
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   color: #F6F6F6;
-  background: #141516 url('/bg.jpg') no-repeat fixed center top / cover;
+  background: #141516 url('bg.jpg') no-repeat fixed center top / cover;
 }
 
 a, #filters li {
@@ -231,7 +231,7 @@ h1 {
 }
 
 @media (max-width: 500px) {
-  
+
   #filters {
     width: auto;
     margin: 30px auto -50px;
