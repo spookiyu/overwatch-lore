@@ -1,7 +1,7 @@
 $(function() {
-  
+
   $('.multi').append('<button class="collapsed">Expand</button>');
-  
+
 });
 
 $('body').on('click', '#list button', function() {
@@ -60,6 +60,7 @@ $('#pharahFilter').click( function() {  typeFilter('pharah', this); });
 $('#reaperFilter').click( function() {  typeFilter('reaper', this); });
 $('#reinhardtFilter').click( function() {  typeFilter('reinhardt', this); });
 $('#roadhogFilter').click( function() {  typeFilter('roadhog', this); });
+$('#sigmaFilter').click( function() {  typeFilter('sigma', this); });
 $('#76Filter').click( function() {  typeFilter('76', this); });
 $('#sombraFilter').click( function() {  typeFilter('sombra', this); });
 $('#symmetraFilter').click( function() {  typeFilter('symmetra', this); });
