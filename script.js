@@ -38,6 +38,7 @@ function typeFilter(filterClass, that) {
 $('#videoFilter').click( function() {  typeFilter('video', this); });
 $('#blogFilter').click( function() {  typeFilter('blog', this); });
 $('#comicFilter').click( function() {  typeFilter('comic', this); });
+$('#storyFilter').click( function() {  typeFilter('story', this); });
 $('#tweetFilter').click( function() {  typeFilter('tweet', this); });
 
 $('#anaFilter').click( function() {  typeFilter('ana', this); });
