@@ -48,6 +48,7 @@ $('#baptisteFilter').click( function() {  typeFilter('baptiste', this); });
 $('#brigitteFilter').click( function() {  typeFilter('brigitte', this); });
 $('#doomfistFilter').click( function() {  typeFilter('doomfist', this); });
 $('#dvaFilter').click( function() {  typeFilter('dva', this); });
+$('#echoFilter').click( function() {  typeFilter('echo', this); });
 $('#hanzoFilter').click( function() {  typeFilter('hanzo', this); });
 $('#genjiFilter').click( function() {  typeFilter('genji', this); });
 $('#junkratFilter').click( function() {  typeFilter('junkrat', this); });
