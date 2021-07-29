@@ -35,6 +35,12 @@ h1 {
   text-transform: uppercase;
 }
 
+.announcement {
+  border: 1px solid #FF9C00;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+}
+
 #characters {
   display: flex;
   flex-wrap: wrap;
